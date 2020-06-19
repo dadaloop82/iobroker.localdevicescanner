@@ -1,0 +1,82 @@
+{
+	"common": {
+		"name": "localdevicescanner",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Local Device Scanner and Presence detector",
+		"titleLang": {
+			"en": "Local Device Scanner and Presence detector",
+			"de": "Local Device Scanner and Presence detector",
+			"ru": "Local Device Scanner and Presence detector",
+			"pt": "Local Device Scanner and Presence detector",
+			"nl": "Local Device Scanner and Presence detector",
+			"fr": "Local Device Scanner and Presence detector",
+			"it": "Local Device Scanner and Presence detector",
+			"es": "Local Device Scanner and Presence detector",
+			"pl": "Local Device Scanner and Presence detector",
+			"zh-cn": "Local Device Scanner and Presence detector"
+		},
+		"desc": {
+			"en": "Local Device Scanner and Presence Detector",
+			"de": "Local Device Scanner and Presence Detector",
+			"ru": "Local Device Scanner and Presence Detector",
+			"pt": "Local Device Scanner and Presence Detector",
+			"nl": "Local Device Scanner and Presence Detector",
+			"fr": "Local Device Scanner and Presence Detector",
+			"it": "Local Device Scanner and Presence Detector",
+			"es": "Local Device Scanner and Presence Detector",
+			"pl": "Local Device Scanner and Presence Detector",
+			"zh-cn": "Local Device Scanner and Presence Detector"
+		},
+		"authors": [
+			"dadaloop82 <dadaloop82@gmail.com>"
+		],
+		"keywords": [
+			"local",
+			"device",
+			"scanner",
+			"presence",
+			"detector",
+			"wifi",
+			"bluetooth"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "localdevicescanner.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/dadaloop82/ioBroker.localdevicescanner/master/admin/localdevicescanner.png",
+		"readme": "https://github.com/dadaloop82/ioBroker.localdevicescanner/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "network",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
